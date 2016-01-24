@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>admin</title>
+    <!--引入js以实现折叠的导航栏的下拉-->
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="background.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+</head>
+<!--覆盖BS的背景颜色给予高的优先级-->
+
+<body>
+    <!--全局清除-->
+    <div class="clear"></div>
+    <!--BS样式的折叠导航栏-->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#"><img src="stats.png" /><span class="nav-text">TRAFFIC OVERVIEW</span></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="chart.png" /><span class="nav-text-2">DETAILED ACTIVITY</span></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="file.png" /><span class="nav-text-2">CONTENT ANALYSIS</span></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="location.png" /><span class="nav-text-2">LOCATION</span></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="Rectangle.png" /><span class="nav-text-2">ADD DOCUMENT</span></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="search.png" /><span class="nav-text-2">EXPLORE QUERIES</span></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="chat-double.png" /><span class="nav-text-2">MESSAGES</span></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="setting.png" /><span class="nav-text-2">ACCOUNT SETTING</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--定义中心内容-->
+    <div class="container">
+        <div class="row">
+        <!--定义顶部内容-->
+            <div class="   col-md-10 col-top col-md-offset-1">
+                <div class="row">
+                    <div class=" col-xs-2 col-md-2 col-top-2">
+                        <img class="col-top-2-img" src="user.png" />
+                        <h5 class="col-top-2-h5">DASHBOARD</h5>
+                    </div>
+                    <div class=" col-xs-10 col-md-10 col-top-3">
+                        <input class="col-top-3-in" type="text" class="form-control" placeholder="Search for...">
+                        <button class="col-top-3-btn" type="submit">Sign Out</button>
+                        <img class="img-circle col-top-3-img hidden-xs" src="userlogo.jpg" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--定义底部内容区-->
+        <div class="row">
+            <div class="  col-md-10  col-md-offset-1 col-down">
+                <div class="row">
+                    <div class=" col-xs-12 col-md-12 col-down-style-2">
+                        <a href="#"><h5 class="col-down-2-h5">Overview</h5></a>
+                        <a href="#">
+                            <p class="col-down-2-p">Hourly</p>
+                        </a>
+                        <a href="#">
+                            <p class="col-down-2-p2"> Daily </p>
+                        </a>
+                        <a href="#">
+                            <p class="col-down-2-p3">Weekly </p>
+                        </a>
+                        <a href="#">
+                            <p class="col-down-2-p4">onthly</p>
+                        </a>
+                        <a href="#"><img class="col-down-2-img" src="config.png"></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-md-12 col-down-3">
+                        <img class="col-down-3-img" src="data.png" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class=" col-xs-12 col-md-12 col-down-4">
+                        <img class="col-down-4-img" src="sta.png"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

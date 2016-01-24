@@ -1,0 +1,136 @@
+/*全局清除浮动*/
+
+.clear {
+    clear: both;
+}
+/*定义导航栏*/
+.nav-text {
+    padding-left: 10px;
+    color: #ff6b6b;
+    font-size: 12px;
+}
+
+.nav-text-2 {
+    padding-left: 10px;
+    color: #000000;
+    font-size: 12px;
+}
+/*定义中心内容区顶端整体*/
+.col-top {
+    background-color: #ffffff;
+    height: 100px;
+}
+/*定义中心内容区底部整体*/
+.col-down {
+    height: 750px;
+}
+/*定义顶部内容区的样式*/
+.col-top-2 {
+    background-color: #ff6b6b;
+    height: 100px;
+}
+
+.col-top-2-img {
+    margin-top: 35px;
+    float: left;
+}
+
+.col-top-2-h5 {
+    float: left;
+    margin-top: 40px;
+    margin-left: 20px;
+    color: #ffffff;
+}
+
+.col-top-3 {
+    background-color: #5a6378;
+    height: 100px;
+}
+
+.col-top-3-img {
+    float: right;
+    margin-top: 25px;
+    margin-left: 100px;
+    margin-right: 20px;
+    width: 6%;
+}
+
+.col-top-3-btn {
+    float: right;
+    border: none;
+    margin-top: 35px;
+    padding-left: 5px;
+    background-color: #393f4f;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.col-top-3-in {
+    float: left;
+    margin-top: 35px;
+    margin-left: 5px;
+    border: 1px solid #5a6378;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 50%;
+}
+/*定义底部的内容区的样式*/
+.col-down-style-2 {
+    background-color: #393f4f;
+    height: 40px;
+}
+
+.col-down-2-h5 {
+    float: left;
+    color: #ffffff;
+}
+
+.col-down-2-p {
+    float: left;
+    color: #b6bfd0;
+    padding-top: 9px;
+    padding-left: 30px;
+}
+
+.col-down-2-p2 {
+    float: left;
+    color: #ffffff;
+    padding-top: 9px;
+    padding-left: 30px;
+}
+
+.col-down-2-p3 {
+    float: left;
+    color: #b6bfd0;
+    padding-top: 9px;
+    padding-left: 20px;
+}
+
+.col-down-2-p4 {
+    float: left;
+    color: #b6bfd0;
+    padding-top: 9px;
+    padding-left: 20px;
+}
+.col-down-2-img{
+	float: right;
+	margin-top: 8px;
+}
+.col-down-3{
+	height: 400px;
+	background-color: #393f4f;
+}
+.col-down-3-img{
+	width: 100%;
+	height: 95%;
+}
+.col-down-4{
+	height: 350px;
+	background-color: #393f4f;
+}
+.col-down-4-img{
+    width: 100%;
+    height: 95%;
+}
